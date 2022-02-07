@@ -60,11 +60,15 @@ Value sin fields should be of the same type
 Values in fields should be atomic(Only one item e.g 1,3,4,5 this contains more than one answer )
 Each table needs a primary key
 **2NF**
+
 Data must be in 1NF
 Any partial dependencies have been removed(Partial dependencies is when values rely on fields that are not the tables primary key)
+
 **3NF**
+
 Data must be in 2NF
 Transitive dependencies must be removed(Fields must be dependant on the whole key and nothing else)
+
 When normalising databases an exam board may prefer the database to be written in text form rather than a visual representation an example of this is:
 TOPIC(topicID, topic)
 QUESTION(questionID, question, difficulty, topicID)
