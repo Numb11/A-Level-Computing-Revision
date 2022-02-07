@@ -81,3 +81,43 @@ MARK(markID,correct)
 The tables names are outside of the bracket with the fields inside the bracket one field is underlined as this is the primary key.This is an example showing the link between many tables you can see this as fields are replicated across the tables showing how they are linked.
 If normalisation requires you to split up tables and link them, remember the relationships that databases should have one:many or one:one many:many is not a good relationship to have in a database to prevent this another table can be made to create two one to many relationships.
 
+# Structured Query Language
+
+Structured Query Language is a standardized programming language used to read,edit and generally manage databases.SQL is required to allow developers to easily develop programs that can access and manage databases efficiently.
+SQL only contains a few keywords and it is relatively simple making it easy to learn.Here are a few that are required for A level:
+
+**FROM**
+
+Choose the tables and records being accessed.
+
+**SELECT**
+
+Pick parameters that data is being accessed based on.
+
+**WHERE**
+
+More parameters can be paired with other keywords to give a wider selectivity.
+
+**ORDER BY**
+
+Choose how the data selected will be ordered by ASC or DESC
+
+**INSERT INTO**
+
+Insert multiple values into a record under different fields.
+
+**DELETE FROM**
+
+Choose where values should be deleted from.
+
+**UPDATE**
+
+Used to modify existing records in tables.
+
+**JOIN**
+
+Used to combine data from two or more tables by specifying a common field name.
+
+**DROP TABLE**
+
+Used to delete tables specified.
