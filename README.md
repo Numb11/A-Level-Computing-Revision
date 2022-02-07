@@ -16,3 +16,20 @@ Asymmetric encryption is much more secure it requires two keys like Symmetrical 
 
 Hashing is the act of irreversibly encrypting data.There are many algorithms that do this one of the most popular being SHA 2 these algorithms are only one way if one character is changed the entire output will be different and if the output is fed through the algorithm it will not return the original message making hashing very secure. Why do this?
 Hashing can be used in databases so that plaintext does not have to be transferred giving hackers chance to intercept the data rather it can just go through the algorithm then checked against the data stored within the database.Hashing can also be used for quick memory transfer as data can be encrypted to a simpler form taking up less storage space and ultimately increasing memory speeds.
+
+#Database Charecteristics
+Data has been stored and organised long before the existence of computers.Data can be stored on a computer as a database this data is organised so that the data is accessible allowing quick retrieval and writing of data.
+
+Digital databases consist of tables,records and fields these can be thought of as tables,rows and columns.A file holding a single table is referred to as a flat file database and is usually stored as a CSV file they are easy to manage and quick to access however due to the simplicity of these databases there may be duplicate data making the database slow to access and confusing to read.
+
+In order to rectify this, databases can be more complex, linking multiple tables together in order to split up the repeated data and create new tables with a different primary key linking to the original table.
+
+Almost forgot! Tables  and databases consist of keys.Each table will have a primary key(A unique identifier to identify the entity),a secondary key(an index of the primary keys within the database),a Foreign key(A attribute joining the two tables together) and a composite key(A primary key consisting of more than one attribute).
+
+Relationships between tables are similar to ratios, there are only three! 
+One to many relationships 1,500
+Many to many relationships 500,600
+One to one relationships 1,1 
+
+Attribute = Characteristic
+
