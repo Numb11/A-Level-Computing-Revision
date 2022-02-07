@@ -54,11 +54,14 @@ In order to make databases understandable they must be normalised. This is the p
 These sets of rules are known as 1NF,2NF and 3NF.
 
 Every database should aim to be normalized to 3NF as this is universally understandable allowing other software to read and edit the database software.In order to achieve 3NF all rules from all levels of normalization must have been fulfilled the rules are:
+
 **1NF**
+
 All field names must be unique
 Value sin fields should be of the same type
 Values in fields should be atomic(Only one item e.g 1,3,4,5 this contains more than one answer )
 Each table needs a primary key
+
 **2NF**
 
 Data must be in 1NF
